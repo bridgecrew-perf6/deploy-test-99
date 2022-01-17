@@ -20,6 +20,7 @@ function App() {
 
   return (
     <div className="App">
+      <p>Here's the data!</p>
       {data && <p>{JSON.stringify(data)}</p>}
     </div>
   );
